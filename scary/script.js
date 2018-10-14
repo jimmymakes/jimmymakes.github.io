@@ -2,7 +2,7 @@ var playing = false;
 var audio = new Audio('sounds/forest.mp3');
 audio.loop = true;
 
-var sounds = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13].map(n => {
+var sounds = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].map(n => {
     return new Audio(`sounds/${n}.mp3`);
 });
 
