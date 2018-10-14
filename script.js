@@ -1,9 +1,9 @@
 var playing = false;
-var audio = new Audio('forest.mp3');
+var audio = new Audio('sounds/forest.mp3');
 audio.loop = true;
 
 var sounds = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13].map(n => {
-    return new Audio(`${n}.mp3`);
+    return new Audio(`sounds/${n}.mp3`);
 });
 
 function getWord(arr) {
@@ -43,7 +43,7 @@ function pickWords() {
     var type = Math.random();
 
     if (type < .33) {
-        story = (Math.random() > .5) ? `${c} of the ${adj} ${noun}` : `${adj} ${c} of the ${noun}`;
+        story = (Math.random() > .3) ? `${c} of the ${adj} ${noun}` : `${adj} ${c} of the ${noun}`;
     }
     else if (type >= .33 && type < .66) {
         story = `${adj} ${noun} ${end}`;
@@ -64,7 +64,7 @@ function pickWords() {
 
     if (Math.random() > .4) story = `The ${story}`
 
-    $("#story").stop().html(story).css({opacity: 0}).fadeTo(1500, 1);
+    $("#story").stop().html(story).css({opacity: 0}).fadeTo(1300, 1);
 }
 
 window.onload = pickWords;
