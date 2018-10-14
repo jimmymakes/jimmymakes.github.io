@@ -1,6 +1,7 @@
 body {
     font-family:Helvetica, Arial, sans-serif;
     background-color: black;
+    margin: 0px;
 }
 
 div#title {
@@ -11,7 +12,7 @@ div#title {
     font-weight:bold;
     text-align:center;
     color: yellow;
-    margin-top:50px;
+    margin-top:60px;
     margin-bottom:20px;
 }
 
