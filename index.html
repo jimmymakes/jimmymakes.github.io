@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Scary Story Generator</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <script type='text/javascript' src='http://code.jquery.com/jquery-latest.js'></script>
+        <script src="words.js"></script>
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <div id="title">Scary Story Generator</div>
+        <div id="subhead">Click the skull 💀 for a new Story!</div>
+        <div id="sounds" onClick="toggleSound()">Sound is Off 🔇</div>
+        <div id="story"></div>
+        <div id="refresh" onClick="pickWords()"><div id="skullbutton">💀</div></div>
+        <img src="grave.jpg" class="fix"/>
+    </body>
+</html>

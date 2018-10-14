@@ -1,0 +1,80 @@
+body {
+    font-family:Helvetica, Arial, sans-serif;
+    background-color: black;
+}
+
+div#title {
+    width:640px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:40px;
+    font-weight:bold;
+    text-align:center;
+    color: yellow;
+    margin-top:50px;
+    margin-bottom:20px;
+}
+
+div#subhead {
+    width:640px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+    color: white;
+    margin-top:10px;
+    margin-bottom:100px;  
+}
+
+div#story {
+    width:640px;
+    margin-left:auto;
+    margin-right:auto;
+    height:100px;
+    font-size:40px;
+    font-weight:bold;
+    text-align:center;
+    color: orange;
+    margin-top:50px;
+    margin-bottom:100px;
+}
+
+div#refresh {
+    width:640px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div#skullbutton {
+    font-size:80px;    
+    display:block;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;           
+    cursor: pointer;  
+    margin-left:auto;
+    margin-right:auto; 
+}
+
+div#sounds {
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+}
+
+.fix {    
+    margin-left:auto;
+    margin-right:auto; 
+    width:200vh;
+    height:100vh;
+    position:fixed;
+    top: 0px;
+    opacity:.3;
+    z-index: -2;
+}
