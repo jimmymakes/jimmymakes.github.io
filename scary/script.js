@@ -53,7 +53,7 @@ function pickWords() {
         if (onType < .33) {
             story = (Math.random() > .3) ? `${c} in The ${adj} ${in_place}` : `${adj} ${in_place} ${end}`;    
         }
-        else if (onType >=.33 && onType > .66) {
+        else if (onType >=.33 && onType < .66) {
             story = (Math.random() > .3) ? `${c} in ${adj} ${in_place_n}` : `${adj} ${in_place_n} ${end}`
         }
         else {
